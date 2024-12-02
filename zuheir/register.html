@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER - [Gym Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="login" class="login">
+        <div class="login-container">
+            <h2>Create Your Account</h2>
+            <form action="#" method="POST" class="login-form"
+                onsubmit="window.location.href='main.html'; return false;">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">telephone number</label>
+                    <input type="int" id="tel-num" name="telephone numbe" placeholder="Enter your telephone numbe"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+
+                <button type="submit" class="btn">Log In</button>
+                <p>have an account? <a href="login.html">Login here</a></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#privacy">PRIVACY POLICY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- Newsletter Subscription -->
+        <div class="newsletter">
+            <form action="#">
+                <input type="email" placeholder="Write your feedback" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+
+    <style>
+        /* Login Page Styles */
+        .login {
+            background-color: #f4f4f4;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .login-container {
+            background-color: white;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .login h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .form-group label {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .btn {
+            background-color: #ff5733;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #e04e2c;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ff5733;
+        }
+
+        .newsletter form {
+            margin-top: 20px;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            background-color: #ff5733;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .newsletter button:hover {
+            background-color: #e04e2c;
+        }
+    </style>
+</body>
+
+</html>

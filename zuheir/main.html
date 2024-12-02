@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Gym Name] - Fitness That Works</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h1>TRANSFORM YOUR BODY, TRANSFORM YOUR LIFE</h1>
+            <p>Join our community and unlock your full potential.</p>
+            <button>Get Started</button>
+            <button>Book a Free Consultation</button>
+        </div>
+    </section>
+
+<section id="programs" class="programs">
+    <div class="container">
+        <h2 style="color: #f4f4f4;">Our Programs</h2>
+        <div class="programs-grid">
+            <div class="program-card">
+                <img src="gym2.jpg" alt="Weight Training">
+                <h3>Weight Training</h3>
+                <p >Build muscle, improve strength, and increase endurance with our weight training program.</p>
+                <button><a href="weight.html" style="text-decoration: none; color: inherit;">LEARN MORE</a></button>
+            </div>         
+            <div class="program-card">
+                <img src="weightloss.jpg" alt="Cardio">
+                <h3>Cardio</h3>
+                <p>Boost your cardiovascular health with our high-energy cardio workouts.</p>
+                <button><a href="loss.html" style="text-decoration: none; color: inherit;">LEARN MORE</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#privacy">PRIVACY POLICY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <div class="newsletter">
+            <form action="#">
+                <input type="email" placeholder="Write your feedback" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;}
+nav ul {
+    list-style: none;
+    padding: 0;}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;}
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;}
+nav ul li a:hover {
+    background-color: #ff5733;}
+/* Hero Section */
+#hero {
+    background-image: url('gymimg1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;}
+#hero .hero-text {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;}
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;}
+#hero button {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;}
+#hero button:hover {
+    background-color: #e04e2c;}
+/* P */
+#programs {
+    background-image: url('gymimg1.jpg');
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: white;}
+#programs h2 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;}
+.programs .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #333;}
+.programs-grid {
+    display: grid;
+    gap: 30px;
+    justify-items: center;}
+.program-card {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 20px;
+    text-align: left;}
+.program-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;}
+.program-card h3 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;}
+.program-card p {
+    font-size: 16px;
+    margin-bottom: 20px;}
+.program-card button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;}
+.program-card button:hover {
+    background-color: #e04e2c;}
+
+/* F */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;}
+footer ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;}
+footer ul li a:hover {
+    color: #ff5733;}
+.newsletter form {
+    margin-top: 20px;}
+.newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;}
+.newsletter button {
+    background-color: #ff5733;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;}
+.newsletter button:hover {
+    background-color: #e04e2c;}
+</style>
+</body>
+</html>
